@@ -12,6 +12,14 @@ var User = sequelize.define('User', {
 
 
 
+
+app.get('/users',function (req,res) {
+	res.
+})
+
+
+
+
 module.exports = { 
   app: app,
   User: User
