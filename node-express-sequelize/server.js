@@ -20,6 +20,13 @@ app.get('/users',function (req,res) {
 	})
 })
 
+// app.get('/users',function (req,res) {
+// 	User.fetch()
+// 	.then(function(user){
+// 		res.send(user)
+// 	})
+// })
+
 
 
 
