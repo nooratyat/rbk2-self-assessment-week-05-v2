@@ -14,7 +14,7 @@ var User = sequelize.define('User', {
 
 
 app.get('/users',function (req,res) {
-	var users= req.body.User
+	User.fetch()
 	.then(function(User){
 		res.render('/users')
 	})
